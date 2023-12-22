@@ -1,4 +1,4 @@
-This org is similar to https://github.com/asdf-community but with the advantage of being more secure by keeping the
+This org is similar to [asdf-community](https://github.com/asdf-community) but with the advantage of being more secure by keeping the
 contributor count minimal—currently only [@jdx](https://github.com/jdx) will be allowed to merge PRs.
 For this reason, plugins using this organization will not receive a confirmation warning dialog when
 installed with rtx as they've been vetted by a trusted source.
