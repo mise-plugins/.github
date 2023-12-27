@@ -22,11 +22,11 @@ However this (unsurprisingly) is not commonly done—especially in rtx where it'
 
 ## Problems with [asdf-vm/asdf-plugins](https://github.com/asdf-vm/asdf-plugins)
 
-This model has supply chain risks and quality issues. There is little to no vetting that happens before a "shortname" is added to asdf's manifest. The asdf maintainers have no control over future development of that plugin. If the plugin author is a bad actor or compromised, users of the plugin become exposed
+This model has supply chain risks and quality issues. There is little to no vetting that happens before a "shortname" is added to asdf's registry. The asdf maintainers have no control over future development of that plugin. If the plugin author is a bad actor or compromised, users of the plugin become exposed
 either when installing the plugin or updating it to the latest version.
 
-Also, because plugins are not hard to build, they are often built by individuals to solve their own problems, submitted to the manifest, then not maintained.
-Often PRs sit with unresponsive maintainers and ultimately the plugin may be forked and the manifest switched to a new owner. This increases the supply chain
+Also, because plugins are not hard to build, they are often built by individuals to solve their own problems, submitted to the registry, then not maintained.
+Often PRs sit with unresponsive maintainers and ultimately the plugin may be forked and the registry switched to a new owner. This increases the supply chain
 problem by lowering the bar to get access to plugins and also diverges the community. It becomes harder to follow development of a plugin. Users which
 previously added a plugin may be using an unmainted one and updating to the latest version will not move them to the maintained one.
 
