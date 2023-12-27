@@ -39,6 +39,12 @@ need to be performed by community plugin authors via reviewed PRs.
 Not only will this improve the supply chain security for rtx users, we think this will increase quality of plugins as well. Plugins should not sit around
 with bugs for months waiting for unresponsive maintainers to merge.
 
+## Building a new plugin
+
+- Read asdf's [creating plugins guide](https://github.com/asdf-vm/asdf/blob/master/docs/plugins/create.md)
+- Consider using asdf's [Template](https://github.com/asdf-vm/asdf-plugin-template) which has the core functionality to tools published to GitHub releases and CI for GitHub/GitLab/CircleCI out of the box.
+- Submit a transfer request to have the plugin hosted in this org so users can install with the shortname.
+
 ## Trusted Plugins
 
 rtx has the concept of "trusted" and "untrusted" plugins. Trusted plugins will automatically install when running commands like `rtx install` or `rtx use`,
