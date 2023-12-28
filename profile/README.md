@@ -93,6 +93,8 @@ Jeff created rtx and has been an open source developer for many years. He's work
 
 ### [Pedro Piñera Buendía (@pepicrft)](https:///github.com/pepicrft)
 
+Pedro created [Tuist](https://tuist.io), a tool to scale development for Apple platforms. He's an open-source advocate and loves building developer tools that spark joy when using them. 
+
 ## FAQs
 
 ### Can asdf users use this repo?
