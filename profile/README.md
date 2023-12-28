@@ -1,3 +1,9 @@
+# rtx plugins
+
+Making software development safer, faster, and simpler.
+
+# How it works
+
 [rtx](https://rtx.jdx.dev) is built with its predecessor [asdf](https://asdf-vm.com)'s plugin model. asdf/rtx plugins are how each language/tool work and are git repos with a set of bash script. For example, tuist can be installed by either of the following:
 
 ```sh
@@ -91,6 +97,14 @@ Jeff created rtx and has been an open source developer for many years. He's work
 
 ### [Justin "J.R." Hill (@booniepepper)](https://github.com/booniepepper)
 
+J.R. is a FOSS enthusiast and a code creative. His personal projects can be found at [so.dang.cool](https://so.dang.cool),
+and he currently serves as a Staff Engineer at Onward.
+
+> I developed an interest in the software supply chain during the 9 years I spent working at Amazon. There I provided
+> company-wide security incident response to CVEs and embargoed zero-day exploits. I also got to help maintain the company's
+> shared code bases (used by Amazon, AWS, Twitch, etc) of >100k polyglot software repositories, from which >575k projects
+> are built, for applications that range from the web, cloud infrastructure, robotics, aviation, and more. 
+
 ### [Pedro Piñera Buendía (@pepicrft)](https:///github.com/pepicrft)
 
 Pedro created [Tuist](https://tuist.io), a tool to scale development for Apple platforms. He's an open-source advocate and loves building developer tools that spark joy when using them. 
@@ -99,7 +113,7 @@ Pedro created [Tuist](https://tuist.io), a tool to scale development for Apple p
 
 ### Can asdf users use this repo?
 
-We do not currently recommend it. While all asdf plugins should work in rtx, the inverse is not necessarily the case. rtx has features that asdf may never support. We may change our guidance on this if we either make a commitment to a unified plugin syntax or otherwise make this registry consumable in asdf.
+Probably, but we recommend using rtx over asdf. While all asdf plugins should work in rtx, the inverse is not necessarily the case. rtx has features that asdf may never support. We may change our guidance on this if we either make a commitment to a unified plugin syntax or otherwise make this registry consumable in asdf.
 
 That said, if you want to use this anyways knowing some plugins may not work correctly, you can do so in asdf with the following:
 
