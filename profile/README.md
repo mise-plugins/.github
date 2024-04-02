@@ -49,7 +49,7 @@ with bugs for months waiting for unresponsive maintainers to merge.
 
 - Read asdf's [creating plugins guide](https://github.com/asdf-vm/asdf/blob/master/docs/plugins/create.md)
 - Consider using asdf's [Template](https://github.com/asdf-vm/asdf-plugin-template) which has the core functionality to tools published to GitHub releases and CI for GitHub/GitLab/CircleCI out of the box.
-- Submit a transfer request to have the plugin hosted in this org so users can install with the shortname.
+- Submit a transfer request to @jdx and he will put it into the org.
 
 ## Trusted Plugins
 
@@ -79,7 +79,7 @@ We encourage plugin authors to submit their plugins to this repo to increase the
 seen when first installing a non-official plugin.
 
 If you'd like to submit your plugin, you can either [submit a discussion](https://github.com/orgs/mise-plugins/discussions/new?category=transfer-request) to
-start a conversation or simply request to transfer the repo to us on GitHub and we'll know what to do.
+start a conversation or simply request to transfer the repo to @jdx on GitHub and he'll know what to do.
 
 Optionally, we can put a CODEOWNERS file in the root of the plugin with your handle so users know who built/maintains the plugin.
 
