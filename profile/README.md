@@ -49,6 +49,7 @@ with bugs for months waiting for unresponsive maintainers to merge.
 
 - Read asdf's [creating plugins guide](https://github.com/asdf-vm/asdf/blob/master/docs/plugins/create.md)
 - Consider using asdf's [Template](https://github.com/asdf-vm/asdf-plugin-template) which has the core functionality to tools published to GitHub releases and CI for GitHub/GitLab/CircleCI out of the box.
+  - refer to https://github.com/mise-plugins/mise-poetry/tree/main/.github/ for mise-specific workflows 
 - Submit a transfer request to @jdx and he will put it into the org.
 
 ## Trusted Plugins
