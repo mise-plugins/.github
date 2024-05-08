@@ -58,9 +58,10 @@ mise has the concept of "trusted" and "untrusted" plugins. Trusted plugins will 
 however untrusted plugins will receive the following warning/confirmation:
 
 ```sh-session
-$ mise install zigmod@latest
-⚠️  zigmod is a community-developed plugin: https://github.com/kachick/asdf-zigmod
- Would you like to install zigmod [y/n]?
+$ mise install dprint@latest
+mise ⚠️ dprint is a community-developed plugin
+mise url: https://github.com/asdf-community/asdf-dprint
+ Would you like to install dprint?
 ```
 
 Trusted plugins may be of one of two types, they can be either first-party or hosted in this org with reviewed changes by trusted owners.
