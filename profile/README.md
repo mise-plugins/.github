@@ -2,6 +2,10 @@
 
 Making software development safer, faster, and simpler.
 
+> [!WARNING]  
+> This org and asdf/vfox plugins in mise are no longer the preferred mechanism for new tools. Try to get your tool into aqua or see if it can be installed with ubi, then it may be added to the mise [registry](https://github.com/jdx/mise/blob/main/registry.toml).
+> Only tools which cannot be added by other means should have an asdf/vfox plugin associated with them.
+
 # How it works
 
 [mise](https://mise.jdx.dev) is built with its predecessor [asdf](https://asdf-vm.com)'s plugin model. asdf/mise plugins are how each language/tool work and are git repos with a set of bash script. For example, tuist can be installed by either of the following:
