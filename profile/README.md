@@ -3,7 +3,7 @@
 Making software development safer, faster, and simpler.
 
 > [!WARNING]  
-> asdf/vfox plugins in mise are no longer the preferred mechanism for new tools. Try to get your tool into aqua or see if it can be installed with ubi, then it may be added to the mise [registry](https://github.com/jdx/mise/blob/main/registry.toml).
+> asdf/vfox plugins in mise are no longer the preferred mechanism for new tools. Try to get your tool into aqua or see if it can be installed with the github backend, then it may be added to the mise [registry](https://github.com/jdx/mise/blob/main/registry.toml).
 > Only tools which cannot be added by other means should have an asdf/vfox plugin associated with them.
 > The rest of this doc is outdated and does not reflect the current state of preferring aqua/ubi.
 
